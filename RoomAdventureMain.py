@@ -78,14 +78,16 @@ def createRooms():
 	r3 = Room("Room 3 EASY")
 	r4 = Room("Room 4 HARD")
 
-	# Room1 Setup
+	# Room1 Setup Easy Vigener Room
 	r1.addItem("Painting","its just the aphabet backwards?")
 
-	# Room2 Setup
-	# Room3 Setup
+	# Room2 Setup Medium double xor
+	
+	# Room3 Setup easy binary room
 	r3.addItem("Bookshelf","its weird, every book is either Red Or Blue?")
 	r3.addItem("Paper","01010101011100110110010100100000001110000010000001100010011010010111010000100000011000100110100101101110011000010111001001111001")
-	# Room4 Setup
+	
+	# Room4 Setup hard RSA
 	r4.addItem("Plaque","Solve each room to complete the bigger picture. It's initials say R.S.A")
 
 
