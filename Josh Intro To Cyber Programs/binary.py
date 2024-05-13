@@ -20,7 +20,7 @@
 import sys
 
 # Credit: Trey Thomas 
-binary_input = sys.stdin.read().strip()
+binary_input = sys.argv[1]
 binary_str = binary_input.replace("\r","").replace("\n", "").replace("\b","")
 
 # Determine if binaries are 7-bit or 8-bit
